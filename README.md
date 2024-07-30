@@ -1,6 +1,6 @@
-# Project Title
+# Political Predictive Model
 
-Welcome to the ___ project! This project aims to build a machine-learning model that can accurately predict ____. This README file provides an overview of the project, including its purpose, the data used, the methodology employed, and instructions on how to set up and run the project.
+Welcome to the "Political Predictive Model" project! This project aims to build a machine-learning model that can accurately predict the winning political party based on USA citizens' donations. This README file provides an overview of the project, including its purpose, the data used, the methodology employed, and instructions on how to set up and run the project.
 
 The main objectives of this project are to:
 
@@ -21,14 +21,7 @@ The main objectives of this project are to:
 - [Data](#Data)
 - [Results](#Results)
 - [Contributors](#Contributors)
-- [References](#References)
 - [Apendix](#Apendix)
-
----
-
-# Introduction
-
-Here is the full intro to the project
 
 ---
 
@@ -60,6 +53,8 @@ To install and run this project locally, follow these steps:
 
 To Use this model with your custom data:
 
+(Example)
+
 `python main.py --input data/input.csv --output output/predictions.csv`
 
 
@@ -69,9 +64,10 @@ To Use this model with your custom data:
 
 ```
 project/
-├── data/
 ├── notebooks/
+    ├── project.ipynb
 ├── output/
+    ├── result.csv
 ├── README.md
 ├── requirements.txt
 └── main.py
@@ -82,16 +78,21 @@ project/
 
 # Data
 
-The data used for the project is the following:
+The data used in this project is sourced from publicly available records of political donations in the USA. This dataset includes information such as donor donation amounts, dates, and the political parties or candidates receiving the donations. We have meticulously cleaned and preprocessed the data to ensure its suitability for training our machine-learning model
 
-- [Current and historic federal campaign finance data](https://www.fec.gov/data/receipts/individual-contributions/?two_year_transaction_period=2024&min_date=01%2F01%2F2023&max_date=12%2F31%2F2024)
-- 
+- [Current and historic federal campaign finance data](https://www.fec.gov/data/receipts/individual-contributions/)
+- [Cost of Living & Disposable Incomes by State](https://www.forbes.com/advisor/mortgages/cost-of-living-by-state/)
 
 ---
 
 # Results
 
 The results of our machine learning model reults as follow:
+
+- Conclusion 1
+- Image 1
+- Conclusion 2
+- Image 2
 
 ---
 
@@ -102,12 +103,6 @@ This project was created and developed by:
 - Cesar Fernandez
 - Connor Finnerty
 - Manuel Flores
-
----
-
-# References
-
-- 
 
 ---
 
