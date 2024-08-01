@@ -16,12 +16,9 @@ The main objectives of this project are to:
 
 - [Introduction](#Introduction)
 - [Installation](#Installation)
-- [Usage](#Usage)
-- [Project Structure](#Project-Structure)
 - [Data](#Data)
 - [Results](#Results)
 - [Contributors](#Contributors)
-- [Apendix](#Apendix)
 
 ---
 
@@ -49,33 +46,6 @@ To install and run this project locally, follow these steps:
 
 ---
 
-# Usage
-
-To Use this model with your custom data:
-
-(Example)
-
-`python main.py --input data/input.csv --output output/predictions.csv`
-
-
----
-
-# Project Structure
-
-```
-project/
-├── notebooks/
-    ├── project.ipynb
-├── output/
-    ├── result.csv
-├── README.md
-├── requirements.txt
-└── main.py
-
-```
-
----
-
 # Data
 
 The data used in this project is sourced from publicly available records of political donations in the USA. This dataset includes information such as donor donation amounts, dates, and the political parties or candidates receiving the donations. We have meticulously cleaned and preprocessed the data to ensure its suitability for training our machine-learning model
@@ -89,11 +59,8 @@ The data used in this project is sourced from publicly available records of poli
 
 The results of our machine learning model reults as follow:
 
-- Conclusion 1
-- Image 1
-- Conclusion 2
-- Image 2
-
+- There is no particular Correlation between the economical situation of the state and the amount of Individual Contributions
+- The Individual Contributions are not a good feature to consider when predicting the outcome of elections
 ---
 
 # Contributors
@@ -103,11 +70,3 @@ This project was created and developed by:
 - Cesar Fernandez
 - Connor Finnerty
 - Manuel Flores
-
----
-
-# Apendix
-
-The following is supplementary data to this project: 
-
-- 
